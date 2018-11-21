@@ -1,3 +1,4 @@
+//Resuelto
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -18,7 +19,7 @@ int main(){
 			resultados[j++]=POSITIVE_RESULT;
 		}
 		else if(cifrado[len-1]=='5'&&cifrado[len-2]=='3'){
-			resultados[j++]=NEGATIVE_RESULT;	
+			resultados[j++]=NEGATIVE_RESULT;
 		}
 		else if(cifrado[0]=='9'&&cifrado[len-1]=='4'){
 			resultados[j++]=FAILED_EXPERIMENT;
